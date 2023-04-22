@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@discordjs/core": "^0.5.2",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3"
+  },
+  "name": "ball-cam",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r node_modules/dotenv/config ../index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
